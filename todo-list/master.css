@@ -1,0 +1,50 @@
+* {
+  box-sizing:border-box;
+}
+
+body {
+  max-width:800px;
+}
+
+.input {
+  width:100%;
+  display:block;
+  padding:10px 20px;
+
+  border:2px solid lightgreen;
+
+  margin-bottom:10px;
+
+}
+
+.submit_btn {
+  background:grey;
+}
+
+.entry {
+  background:grey;
+  width:50%;
+  text-align:center;
+  margin:auto;
+  padding:5px;
+  color:dotted red;
+}
+
+.entry:hover {
+  background:darkgrey;
+}
+
+
+.entry_text {
+  padding:5px;
+}
+
+.entry_text:hover {
+  cursor:pointer;
+  text-decoration:line-through;
+}
+
+.dark {
+  background:black;
+  color:yellow;
+}

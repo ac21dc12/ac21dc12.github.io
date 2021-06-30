@@ -2,11 +2,27 @@
   width:32%;
 }
 
-.among_us_image{
+.among_us_image {
   width:32;
   filter: drop-shadow();
 }
 
 .jeff_hardy_wwe_champion_2019__custom__png_by_ambriegnsasylum16_dd5rwhm{
   width:32;
+}
+
+.link {
+  color:red;
+}
+
+.link:hover {
+  color:white;
+}
+
+.link:active, .link:focus {
+  color:white;
+}
+
+.cake_image {
+  width:50%
 }
