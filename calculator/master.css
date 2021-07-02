@@ -1,4 +1,23 @@
 .number_input {
-  border:4px solid lightgreen;
-  background:solid orange;
+  border:4px solid pink;
+}
+
+.button {
+  border-radius:50px;
+  background:turquoise;
+
+  transition:.5s;
+}
+
+body {
+  background:lightgreen;
+}
+
+.button:hover {
+  background:lavender;
+}
+
+
+.title {
+  font-family:"Courier New";
 }

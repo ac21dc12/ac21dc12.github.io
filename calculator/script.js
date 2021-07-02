@@ -1,7 +1,7 @@
 const  input1 = document.querySelector('#input1');
 const  input2 = document.querySelector('#input2');
 
-const  additioninput1 = document.getElementbyId('addition');
+const  additioninput1 = document.getElementById('addition');
 const  subtractioninput1 = document.querySelector('#subtraction');
 const  multiplicationinput1 = document.querySelector('#multiplication');
 const  divisioninput1 = document.querySelector('#division');
@@ -9,19 +9,18 @@ const  divisioninput1 = document.querySelector('#division');
 const output = document.querySelector('#output');
 
 additioninput1.addEventListener('click', e => {
-  alert('clicked!')
-  output.innerHTML = input1.value + input2.value
+  output.innerHTML = parseInt(input1.value) + parseInt(input2.value)
 
 })
 
-subtractionInput.addEventListener('click', e => {
-
+subtractioninput1.addEventListener('click', e => {
+  output.innerHTML = parseInt(input1.value) - parseInt(input2.value)
 })
 
-multiplicationInput.addEventListener('click', e => {
-
+multiplicationinput1.addEventListener('click', e => {
+  output.innerHTML = parseInt(input1.value) * parseInt(input2.value)
 })
 
-divisionInput.addEventListener('click', e => {
-
+divisioninput1.addEventListener('click', e => {
+  output.innerHTML = parseInt(input1.value) / parseInt(input2.value)
 })
